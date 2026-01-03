@@ -13,7 +13,7 @@ var (
 
 type FieldValue interface {
 	fmt.Stringer
-	binary.Serializable
+	binary.BinarySerializable
 }
 
 type FieldType interface {
