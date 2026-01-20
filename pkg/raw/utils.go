@@ -1,6 +1,8 @@
-package binary
+package raw
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func PutBytes(buffer []byte, data []byte) (int, error) {
 	if len(buffer) < len(data) {
